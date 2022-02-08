@@ -21,7 +21,7 @@ Tested with Jedi Academy and Jedi Outcast maps with all their pk3's extracted to
 ![Jedi Academy - mp/ffa3](https://github.com/Vanidium/unity-rbsp-importer/blob/main/Screenshots/ja-ffa3.png?raw=true)
 Jedi Academy - mp/ffa3
 
-![Jedi Outcast - kejim_post](https://github.com/Vanidium/unity-rbsp-importer/blob/main/Screenshots/jo-kejim_post.png?raw=true)
-Jedi Outcast - kejim_post
+![Jedi Outcast - ffa_bespin](https://github.com/Vanidium/unity-rbsp-importer/blob/main/Screenshots/jo-ffa-bespin.png?raw=true)
+Jedi Outcast - ffa_bespin
 
 I do not condone using this to "remake" games, or "reuse maps and assets" from released games that use this format.
