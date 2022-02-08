@@ -14,7 +14,7 @@ It's super incomplete, but maybe one day it will be usable. It has most things n
 - [ ] Using baked lightmaps (Unity can do a better job at this, probably)
 - [ ] Using surface flags
 
-So, it is currently able to load an (r)bsp file, display the faces with mostly the correct textures (there are issues with .shader files, it tries it's best to grab the texture from the associated shader, but it's guaranteed, especially if the texture relies on blendFunc and rgbGen a lot).
+In short is currently able to load an (r)bsp file, display the faces with mostly the correct textures (there are issues with .shader files, it tries it's best to grab the texture from the associated shader, but it's not guaranteed, especially if the texture relies on blendFunc and rgbGen a lot).
 
 Tested with Jedi Academy and Jedi Outcast maps with all their pk3's extracted to a folder. 
 
