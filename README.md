@@ -1,6 +1,6 @@
 # unity-rbsp-importer
-Just a small weekend project to import compiled BSP files (Raven-variant).
-It's super incomplete, but maybe one day it will be usable. It has most things needed - at least in a "ready to start with" state.
+Just a small weekend project to import compiled BSP files (the Raven-variant).
+It's super incomplete, but maybe one day it will be usable. It has most of the basics - or at least in a "ready to start with" state.
 
 ### The List
 - [x] Loading RBSP files
@@ -9,12 +9,12 @@ It's super incomplete, but maybe one day it will be usable. It has most things n
 - [x] Bezier surfaces
 - [ ] Billboard surfaces
 - [x] Loading and using textures
-- [x] Parsing .shaders (for the most part)
+- [x] Parsing .shaders (10 minute, naive implementation)
 - [ ] Using .shaders (there is SOME support, but it needs much, much more with a specialized Unity Shader) 
 - [ ] Using baked lightmaps (Unity can do a better job at this, probably)
 - [ ] Using surface flags
 
-In short is currently able to load an (r)bsp file, display the faces with mostly the correct textures (there are issues with .shader files, it tries it's best to grab the texture from the associated shader, but it's not guaranteed, especially if the texture relies on blendFunc and rgbGen a lot).
+In short, it is currently able to load an (r)bsp file, display the faces with mostly the correct textures (there are issues with .shader files, it tries it's best to grab the texture from the associated shader, but it's not guaranteed, especially if the texture relies on blendFunc and rgbGen a lot).
 
 Tested with Jedi Academy and Jedi Outcast maps with all their pk3's extracted to a folder. 
 
